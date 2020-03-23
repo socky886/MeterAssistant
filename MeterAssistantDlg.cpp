@@ -174,3 +174,8 @@ int CMeterAssistantDlg::Verify_Valid_Hex(char c)
 	else
 		return 0;
 }
+
+uint16_t CMeterAssistantDlg::Cal_CRC16(uint8_t *p, uint16_t len)
+{
+	return 0x00;
+}

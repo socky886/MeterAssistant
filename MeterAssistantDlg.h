@@ -35,4 +35,5 @@ public:
 	int Convert_String_To_Hex_Array(char * p);
 	CString sArray;
 	int Verify_Valid_Hex(char c);
+	uint16_t Cal_CRC16(uint8_t *p, uint16_t len);
 };
